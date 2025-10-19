@@ -7,6 +7,8 @@ from games.dice_roll import dice_roll
 from games.high_low import high_low
 from games.number_guessing import number_guessing
 from games.rock_paper_scissor import rock_paper_scissor
+from games.higher_lower import higher_lower
+
 
 # --------Score Board--------
 score_file = os.path.join(os.path.dirname(__file__), "scoreboard.json")
@@ -50,8 +52,9 @@ def main():
         print("2. Coin Toss")
         print("3. Dice Roll")
         print("4. Rock–Paper–Scissors")
-        print("5. Higher or Lower")
-        print("6. Show Scoreboard")
+        print("5. High or Low")
+        print("6. Higher or Lower")
+        print("7. Show Scoreboard")
         print("0. Exit")
 
         choice = input("Choose a game: ")
@@ -67,6 +70,8 @@ def main():
         elif choice == "5":
             high_low(update_score)
         elif choice == "6":
+            higher_lower(update_score)
+        elif choice == "7":
             show_scoreboard()
         elif choice == "0":
             print("Thanks for playing! 👋")
