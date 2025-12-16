@@ -52,12 +52,6 @@ You feel them through disappearing choices.
 
 ### ▶️ Execution
 
-Clone the repository:
-```bash
-git clone [https://github.com/Aryanuo/Projects/tree/main/Adventure%20Island]
-cd elf-forest
-
-python main.py
 
 
 
@@ -71,3 +65,10 @@ The game has four possible endings, resolved at the final scene through weighted
 | ❌ **Consumed Refusal** | 30%         | Refusal (2)    | Fails True Ending conditions            |
 | 🌑 **Rooted Will**     | 30%         | Acceptance (1) | High Will + Awareness                   |
 | 🌲 **The Embrace**     | 30%         | Acceptance (1) | Low Will + Awareness or high Corruption |
+
+Clone the repository:
+```bash
+git clone [https://github.com/Aryanuo/Projects/tree/main/Adventure%20Island]
+cd elf-forest
+
+python main.py
