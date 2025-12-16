@@ -45,16 +45,6 @@ You feel them through disappearing choices.
 
 ---
 
-## 🚀 How to Run the Game
-
-### 🔧 Prerequisites
-- Python **3.x** (recommended)
-
-### ▶️ Execution
-
-
-
-
 🏁 Endings (4 Primary Outcomes)
 
 The game has four possible endings, resolved at the final scene through weighted logic:
@@ -65,6 +55,14 @@ The game has four possible endings, resolved at the final scene through weighted
 | ❌ **Consumed Refusal** | 30%         | Refusal (2)    | Fails True Ending conditions            |
 | 🌑 **Rooted Will**     | 30%         | Acceptance (1) | High Will + Awareness                   |
 | 🌲 **The Embrace**     | 30%         | Acceptance (1) | Low Will + Awareness or high Corruption |
+
+
+## 🚀 How to Run the Game
+
+### 🔧 Prerequisites
+- Python **3.x** (recommended)
+
+### ▶️ Execution
 
 Clone the repository:
 ```bash
