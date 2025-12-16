@@ -54,10 +54,12 @@ You feel them through disappearing choices.
 
 Clone the repository:
 ```bash
-git clone []
+git clone [https://github.com/Aryanuo/Projects/tree/main/Adventure%20Island]
 cd elf-forest
 
 python main.py
+
+
 
 🏁 Endings (4 Primary Outcomes)
 
