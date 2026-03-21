@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adventure-island"
+version = "0.1.0"
+description = "Hello World"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name="Aryan", email="a6471670@gmail.com" }
+]
+
+[project.scripts]
+adventure-island = "adventure_island.main:main"

@@ -387,7 +387,7 @@ What is your final choice?
 
 # GAME FLOW
 
-def start():
+def main():
     slow("🌲 THE FOREST OF CURSED ELVES 🌲")
     input("\nPress Enter to step into the forest...")
 
@@ -424,4 +424,5 @@ def start():
 
 # START
 
-start()
+if __name__=="__main__":
+    main()
